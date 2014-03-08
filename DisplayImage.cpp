@@ -34,6 +34,11 @@ void myWaitKey()
  */
 int main( int argc, char** argv )
 {
+  if(4 != argc)
+  {
+	printf("Wrong arguments\n");
+	return EXIT_FAILURE;
+  }
   /// Load an image
   src = imread( argv[1], 1 );
 
@@ -47,7 +52,7 @@ int main( int argc, char** argv )
                   max_value, Threshold_Demo );
 
   /// Call the function to initialize
-  Threshold_Demo( 0, 0 );
+  Threshold_Demo( 0, (void *)argv );
   
   /// Wait until user finishes program
   myWaitKey();
@@ -57,7 +62,7 @@ int main( int argc, char** argv )
 /**
  * @function Threshold_Demo
  */
-void Threshold_Demo( int, void* )
+void Threshold_Demo( int, void* arguments)
 {
   Mat dst = src_gray.clone(); // (src_gray.cols, src_gray.rows, DataType<char>::type);
 
@@ -83,12 +88,13 @@ void Threshold_Demo( int, void* )
 	}
 //  threshold( src_gray, dst, threshold_value, 255, 0);	
 
-  imshow( window_name, dst );
+  imshow( window_name, src);
   myWaitKey();
 
-  FILE* display = fopen("logo.bin", "r");
+  char** argv = (char **)arguments;
+  FILE* display = fopen(argv[2], "r");
   fread(logo_buffer, sizeof(char), N, display);
-  FILE* lena_display = fopen("lena.bin", "w");
+  FILE* lena_display = fopen(argv[3], "w");
   
   for(int j = y_shift + 127; j >= y_shift; j--)
   {
