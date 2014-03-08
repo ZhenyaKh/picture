@@ -44,10 +44,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hasina/picture
+CMAKE_SOURCE_DIR = /home/zhenya/Studies/ARM/picture
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hasina/picture
+CMAKE_BINARY_DIR = /home/zhenya/Studies/ARM/picture
 
 #=============================================================================
 # Target rules for target CMakeFiles/DisplayImage.dir
@@ -56,7 +56,7 @@ CMAKE_BINARY_DIR = /home/hasina/picture
 CMakeFiles/DisplayImage.dir/all:
 	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/depend
 	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hasina/picture/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/zhenya/Studies/ARM/picture/CMakeFiles  1
 	@echo "Built target DisplayImage"
 .PHONY : CMakeFiles/DisplayImage.dir/all
 
@@ -66,9 +66,9 @@ all: CMakeFiles/DisplayImage.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DisplayImage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hasina/picture/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhenya/Studies/ARM/picture/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DisplayImage.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hasina/picture/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhenya/Studies/ARM/picture/CMakeFiles 0
 .PHONY : CMakeFiles/DisplayImage.dir/rule
 
 # Convenience name for target.

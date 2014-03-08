@@ -1,4 +1,4 @@
-# Install script for directory: /home/hasina/picture
+# Install script for directory: /home/zhenya/Studies/ARM/picture
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/hasina/picture/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/zhenya/Studies/ARM/picture/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/hasina/picture/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/zhenya/Studies/ARM/picture/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

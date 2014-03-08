@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/hasina/picture/DisplayImage.cpp
+/home/zhenya/Studies/ARM/picture/DisplayImage.cpp
 opencv2/imgproc/imgproc.hpp
-/home/hasina/picture/opencv2/imgproc/imgproc.hpp
+/home/zhenya/Studies/ARM/picture/opencv2/imgproc/imgproc.hpp
 opencv2/highgui/highgui.hpp
-/home/hasina/picture/opencv2/highgui/highgui.hpp
+/home/zhenya/Studies/ARM/picture/opencv2/highgui/highgui.hpp
 stdlib.h
 -
 stdio.h

@@ -1,1 +1,1 @@
-/home/hasina/picture/CMakeFiles/DisplayImage.dir
+/home/zhenya/Studies/ARM/picture/CMakeFiles/DisplayImage.dir
